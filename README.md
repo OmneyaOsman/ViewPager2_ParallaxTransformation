@@ -12,7 +12,7 @@ application to create ViewPager2 with RescyclerView.Adapter with Parallax transf
 
 Demo
 ------------
-[gif](screenshots/homeDemo.gif)
+![gif](screenshots/homeDemo.gif)
 
 
 Screenshots
