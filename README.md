@@ -10,8 +10,9 @@ application to create ViewPager2 with RescyclerView.Adapter with Parallax transf
 *images used from [unsplash](https://unsplash.com)
 
 
-#Demo
-[](screenshots/homeDemo.gif)
+Demo
+------------
+[gif](screenshots/homeDemo.gif)
 
 
 Screenshots
