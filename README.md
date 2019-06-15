@@ -5,8 +5,9 @@ Introduction
 ------------
 application to create ViewPager2 with RescyclerView.Adapter with Parallax transformation like Basil home screen.
 
-*[design of Basil] (https://material.io/design/material-studies/basil.html#about-basil)
-*images used from[unsplash] (https://unsplash.com)
+*[design of Basil](https://material.io/design/material-studies/basil.html#about-basil)
+
+*images used from [unsplash](https://unsplash.com)
 
 
 Screenshots
