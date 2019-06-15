@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37966F</color>
+    <color name="colorPrimaryDark">#356859</color>
+    <color name="colorBackground">#CC356859</color>
+    <color name="primaryLightColor">#B9E4C9</color>
+    <color name="secondaryLightColor">#FF8851</color>
+    <color name="secondaryDarkColor">#c11a00</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="secondary_500">#FD5523</color>
+    <color name="colorAccent">#FFFBE6</color>
+    <color name="bg_recipe_detail">#F2FFFBE6</color>
+</resources>

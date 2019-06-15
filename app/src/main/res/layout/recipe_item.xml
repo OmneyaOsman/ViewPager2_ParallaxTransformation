@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+        <variable
+                name="recipe"
+                type="com.omni.viewpager2.entities.Recipe"
+        />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/constraint_layout"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+        <!--app:imageUrl="@{recipe.imgSrcUrl}"-->
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:id="@+id/recipe_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:imageRes="@{recipe.imgResource}"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.199"
+
+        />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                tools:text="Herb Roasted Chicken"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeTextType="uniform"
+                android:text="@{recipe.title}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipe_image"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/recipe_title"
+                style="@style/RecipeTitle"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:elevation="8dp"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
