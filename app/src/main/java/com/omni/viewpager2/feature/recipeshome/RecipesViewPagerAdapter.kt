@@ -35,7 +35,7 @@ class RecipesViewPagerAdapter : RecyclerView.Adapter<PagerViewHolder>() {
 class PagerViewHolder(private val root: View) : RecyclerView.ViewHolder(root) {
     fun bind(recipe: Recipe) {
         root.recipe_title?.text = recipe.title
-        root.recipe_image?.let {
+        root.recipe_image.let {
             Glide.with(it.context)
                 .load(recipe.imgResource)
                 .apply(
