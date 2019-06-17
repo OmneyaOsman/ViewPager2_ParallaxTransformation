@@ -34,7 +34,7 @@ This module requires the following modules/libraries:
 * [Android LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 * [MVVM architecture](https://developer.android.com/jetpack/docs/guide)
 * Glide
-* DataBinding
+
 
 
 
