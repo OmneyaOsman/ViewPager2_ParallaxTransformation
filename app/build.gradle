@@ -8,9 +8,6 @@ apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 28
-    dataBinding {
-        enabled = true
-    }
     defaultConfig {
         applicationId "com.omni.viewpager2"
         minSdkVersion 21
@@ -39,9 +36,9 @@ dependencies {
     // current version = 1.0.0-alpha04
     implementation "androidx.viewpager2:viewpager2:$version_view_pager2"
 
+    implementation 'com.google.android.material:material:1.0.0'
     // Glide for images
     implementation "com.github.bumptech.glide:glide:$version_glide"
-
     // ViewModel and LiveData (arch components)
     implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
 }
