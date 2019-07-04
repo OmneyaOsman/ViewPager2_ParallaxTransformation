@@ -1,5 +1,5 @@
 # Basil
-ViewPager2 with parallax transformation 
+ViewPager2 with parallax transformation , for more details check this [post](https://medium.com/@omneyaosman/implement-viewpager2-as-a-recyclerview-7456803d102e)
 
 Introduction
 ------------
