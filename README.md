@@ -1,9 +1,11 @@
-# Basil
-ViewPager2 with parallax transformation , for more details check this [post](https://medium.com/@omneyaosman/implement-viewpager2-as-a-recyclerview-7456803d102e)
+# ViewPager2WithParallaxTransformation
+
+This is demo for my [post](https://medium.com/@omneyaosman/implement-viewpager2-as-a-recyclerview-7456803d102e)
+
 
 Introduction
 ------------
-application to create ViewPager2 with RescyclerView.Adapter with Parallax transformation like Basil home screen.
+Demo application to create ViewPager2 with RescyclerView.Adapter with Parallax transformation in Basil home screen.
 
 *[design of Basil](https://material.io/design/material-studies/basil.html#about-basil)
 
